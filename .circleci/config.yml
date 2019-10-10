@@ -60,7 +60,7 @@ jobs:
 
               -LocationType folder \
 
-              -LocationPath ~/$HOME \
+              -LocationPath $CIRCLE_WORKING_DIRECTORY \
 
               -ReportXML $CX_PROJECT-results.xml \
 
