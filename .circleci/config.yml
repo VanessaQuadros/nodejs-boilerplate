@@ -42,7 +42,7 @@ jobs:
 
           command: |
 
-            ~/cxcli/runCxConsole.sh Scan -v -Projectname "$CX_TEAM\\$CX_PROJECT" -CxServer $CX_SERVER -cxuser $CX_USER -cxpassword $CX_PASSWORD -locationtype folder -locationpath ~/project -preset All -SASTHigh 0 -SASTMedium 0 -SASTLow 0 -ReportXML $CX_PROJECT-results.xml -ReportPDF $CX_PROJECT-results.pdf
+            ~/cxcli/runCxConsole.sh Scan -v -Projectname "$CX_TEAM\\$CX_PROJECT" -CxServer $CX_SERVER -cxuser $CX_USER -cxpassword $CX_PASSWORD -locationtype folder -locationpath ~/project -preset All -SASTHigh $CX_HIGH -SASTMedium $CX_MEDIUM -SASTLow $CX_LOW -ReportXML $CX_PROJECT-results.xml -ReportPDF $CX_PROJECT-results.pdf
 
  
 
