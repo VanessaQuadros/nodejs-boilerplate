@@ -48,7 +48,7 @@ jobs:
 
           command: |
 
-            ~/cxcli/runCxConsole.sh Scan -v -Projectname "CxServer\SP\Company\Users\CircleCI" -CxServer http://187.18.61.191 -cxuser admin -cxpassword Admin.123 -locationtype folder -locationpath $CIRCLE_WORKING_DIRECTORY -preset Default
+            ~/cxcli/runCxConsole.sh Scan -v -Projectname "CxServer\SP\Company\Users\ CircleCI" -CxServer http://187.18.61.191 -cxuser admin -cxpassword Admin.123 -locationtype folder -locationpath $CIRCLE_WORKING_DIRECTORY -preset Default
 
  
 
