@@ -32,7 +32,7 @@ jobs:
           
           command: |
           
-          echo $CX_PASSWORD $CX_TEAM $CX_PROJECT $CX_SERVER $CX_TEAM	$CX_USER
+          echo $CX_PASSWORD $CX_TEAM $CX_PROJECT $CX_SERVER $CX_TEAM $CX_USER
 
 
       - run:
