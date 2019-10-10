@@ -31,7 +31,15 @@ jobs:
           
           command: |
           
-            echo $CX_PASSWORD $CX_TEAM $CX_PROJECT $CX_SERVER $CX_TEAM $CX_USER
+            echo $CX_PASSWORD $CX_TEAM $CX_PROJECT $CX_SERVER $CX_USER
+            
+      - run:
+
+          name: Folder List
+          
+          command: |
+          
+            ls
 
 
       - run:
@@ -52,7 +60,7 @@ jobs:
 
               -LocationType folder \
 
-              -LocationPath ~/project \
+              -LocationPath ~/$HOME \
 
               -ReportXML $CX_PROJECT-results.xml \
 
