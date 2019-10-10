@@ -1,4 +1,3 @@
-version: 2.1
 version: 2
 
 jobs:
@@ -26,13 +25,13 @@ jobs:
 
             chmod +x ~/cxcli/runCxConsole.sh
 
-       - run:
+      - run:
 
           name: Teste Variaveis de ambiente
           
           command: |
           
-          echo $CX_PASSWORD $CX_TEAM $CX_PROJECT $CX_SERVER $CX_TEAM $CX_USER
+            echo $CX_PASSWORD $CX_TEAM $CX_PROJECT $CX_SERVER $CX_TEAM $CX_USER
 
 
       - run:
